@@ -1,4 +1,4 @@
-#(©)CodeXBotz
+,#(©)CodeXBotz
 
 
 
@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Channel", url = client.invitelink)
+                    InlineKeyboardButton("Channel", url = client.invitelink),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
             ]
